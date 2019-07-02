@@ -24,7 +24,7 @@ jQuery(function() {
 		//if condition that checks if the values of the van is 1 and if helper is 1 and hours are 1
         if (vanSize == 1 && helperCount == 1 && hourCount == 1) {
 			//if condition is true, the variable newCosts has the value of 34.90
-            newCosts= 34.90;
+            newCosts= 34.99;
 			//if condition is true, show the price div
             $(".hidden-price").show();
         }
