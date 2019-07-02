@@ -7,8 +7,8 @@ jQuery(function() {
         newCosts;
       //the function changes the html value of the price, to show the correct price in the price div
       function recount() {
-        costs = newCosts;
-        finalCosts = costsString.replace('.', ',');
+        console.log(newCosts);
+        finalCosts = newCosts.replace('.', ',');
         document.getElementById('pricePlaceholder').innerHTML=finalCosts;
     }
     recount();
