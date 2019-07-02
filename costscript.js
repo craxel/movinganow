@@ -125,7 +125,7 @@ jQuery(function() {
             $(".hidden-price").show();
         }
         else if (vanSize == 3 && helperCount == 2 && hourCount == 3) {
-            newCosts= 205.95;
+            newCosts= 20500.95;
             $(".hidden-price").show();
         }
         else if (vanSize == 3 && helperCount == 3 && hourCount == 3) {
