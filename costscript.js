@@ -140,7 +140,7 @@ jQuery(function() {
         helperCount = jQuery("input[name='helper']:checked").val();
         hourCount = jQuery("input[name='hour']:checked").val();
     if (vanSize == 1 && helperCount == 1 && hourCount == 1) {
-            newCosts= 34.90;
+            newCosts= 34.99;
             $(".hidden-price").show();
         }
         else if (vanSize == 1 && helperCount == 2 && hourCount == 1) {
